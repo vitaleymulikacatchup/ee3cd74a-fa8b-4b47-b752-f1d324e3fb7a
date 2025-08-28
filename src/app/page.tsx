@@ -2,7 +2,7 @@
 import { NavbarLayoutFloatingInline } from '@/components/navigation/NavbarLayoutFloatingInline';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
-import HowToBuy2D from '@/components/sections/layouts/howtobuy/StepCards2D';
+import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
 import { ButtonHoverBubble } from '@/components/buttons/ButtonHoverBubble';
@@ -33,12 +33,12 @@ export default function Home() {
         heading="About Our Studio"
         body="At PhotonFlux, we blend artistry and technology to create visually stunning photography that speaks volumes. Our work thrives on creativity, innovation, and a commitment to excellence."
       />
-      <HowToBuy2D 
+      <HowToBuy3D 
         heading="How to Book a Shoot"
         items={[
-          { icon: 'camera', title: 'Select a Package', description: 'Choose from our various photography packages that suit your needs.' },
-          { icon: 'calendar', title: 'Schedule a Date', description: 'Pick a date and time that works best for you.' },
-          { icon: 'payment', title: 'Make Payment', description: 'Complete your booking by making a payment through our secure system.' }
+          { title: 'Select a Package', description: 'Choose from our various photography packages that suit your needs.' },
+          { title: 'Schedule a Date', description: 'Pick a date and time that works best for you.' },
+          { title: 'Make Payment', description: 'Complete your booking by making a payment through our secure system.' }
         ]}
       />
       <NumberGridTokenomics 
