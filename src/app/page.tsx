@@ -1,15 +1,15 @@
 "use client";
-import { NavbarLayoutFloatingInline } from '@/components/navigation/NavbarLayoutFloatingInline';
+import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
-import { ButtonHoverBubble } from '@/components/buttons/ButtonHoverBubble';
+import ButtonHoverBubble from '@/components/buttons/ButtonHoverBubble';
 
 export default function Home() {
   return (
-    <>
+    <>    
       <NavbarLayoutFloatingInline 
         navItems={[
           { name: "Hero", id: "hero" },
