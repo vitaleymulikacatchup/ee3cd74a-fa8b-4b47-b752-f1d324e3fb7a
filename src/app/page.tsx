@@ -32,20 +32,20 @@ export default function Home() {
         body="At PhotonFlux, we blend artistry and technology to create visually stunning photography that speaks volumes. Our work thrives on creativity, innovation, and a commitment to excellence."
       />
       <HowToBuy3D 
-        heading="How to Book a Shoot"
-        items={[
+        title="How to Book a Shoot"
+        steps={[
           { title: 'Select a Package', description: 'Choose from our various photography packages that suit your needs.' },
           { title: 'Schedule a Date', description: 'Pick a date and time that works best for you.' },
           { title: 'Make Payment', description: 'Complete your booking by making a payment through our secure system.' }
         ]}
       />
       <NumberGridTokenomics 
-        heading="Our Achievements"
-        body="Take a look at our growth and the key metrics that define us."
-        items={[
-          { number: "100", subheader: "Photoshoots Completed", description: "Delivering memories for families and events." },
-          { number: "50", subheader: "Happy Clients", description: "Building lasting relationships through our work." },
-          { number: "2000", subheader: "Photos Taken", description: "Capturing special moments in breathtaking detail." }
+        title="Our Achievements"
+        description="Take a look at our growth and the key metrics that define us."
+        kpiItems={[
+          { value: "100", description: "Photoshoots Completed" },
+          { value: "50", description: "Happy Clients" },
+          { value: "2000", description: "Photos Taken" }
         ]}
       />
       <CentralFAQ 
