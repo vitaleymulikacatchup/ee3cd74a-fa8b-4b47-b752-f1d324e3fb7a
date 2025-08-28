@@ -5,7 +5,6 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
-import ButtonHoverBubble from '@/components/buttons/ButtonHoverBubble';
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
           { name: "FAQ", id: "footer" }
         ]}
         logoSrc="/images/logo.svg"
-        logoAlt="PhotonFlux Logo"
         logoWidth={200}
         logoHeight={60}
         buttonText="Book a Shoot"
